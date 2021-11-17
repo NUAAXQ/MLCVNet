@@ -2,7 +2,7 @@
 ## Introduction
 This repository is the MLCVNet code implementation on ScanNet dataset. The main parts of the code are based on [VoteNet](https://github.com/facebookresearch/votenet).
 
-![teaser](https://github.com/NUAAXQ/MLCVNet-1/blob/master/images/teaser.jpg)
+![teaser](https://github.com/NUAAXQ/MLCVNet/blob/master/images/teaser.jpg)
 
 ## Installation
 Follow the [Installation](https://github.com/facebookresearch/votenet#installation) and [Data preparation](https://github.com/facebookresearch/votenet#data-preparation) structions in VoteNet.
@@ -41,16 +41,16 @@ Run `python demo.py` to get the output results for a specific scene `scene0609_0
 ### Step 2: visualization mode
 Import the `scene0609_02_vh_clean_2.ply` and `*_pred_confident_nms_bbox.ply` to Meshlab. Set the correct visualization mode for the scene and all imported boxes, as shown in the below picture.
 
-<img src="https://github.com/NUAAXQ/MLCVNet-1/blob/master/images/0-import.jpg" width = 80% height = 80% div align=center />
+<img src="https://github.com/NUAAXQ/MLCVNet/blob/master/images/0-import.jpg" width = 80% height = 80% div align=center />
 
 ### Step 3: Quad-mesh
 Turn the boxes into Quad mode as shown in the following figure. Choose the box one by one in the Layer Dialog. Follow the operations by "Filters"->"Polygonal and Quad Mesh"->"Turn into Quad-Dominant mesh"->"Apply".
 
-<img src="https://github.com/NUAAXQ/MLCVNet-1/blob/master/images/1-mesh.jpg" width = 80% height = 80% div align=center />
+<img src="https://github.com/NUAAXQ/MLCVNet/blob/master/images/1-mesh.jpg" width = 80% height = 80% div align=center />
 
 ### Setp 4: colorization
 Choose one type of objects and change the color under the "Wireframe" visualization mode, in the Layer Dialog.
-<img src="https://github.com/NUAAXQ/MLCVNet-1/blob/master/images/2-color.jpg" width = 80% height = 80% div align=center />
+<img src="https://github.com/NUAAXQ/MLCVNet/blob/master/images/2-color.jpg" width = 80% height = 80% div align=center />
 
 See more results in `visualization examples`.
 
